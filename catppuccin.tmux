@@ -383,6 +383,10 @@ main() {
   set status-left "$loaded_modules_left"
   set status-right "$loaded_modules_right"
 
+
+  set "window-style" "fg=#5c6370"
+  set "window-active-style" "fg=$thm_fg"
+
   # --------=== Modes
   #
   setw clock-mode-colour "${thm_blue}"
